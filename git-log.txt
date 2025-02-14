@@ -1,0 +1,17 @@
+PS C:\Users\Jewel\Desktop\html-css> git add .
+PS C:\Users\Jewel\Desktop\html-css> git commit -m "Added 3 files - html, css, js"
+[main 8dcdfcf] Added 3 files - html, css, js
+ 4 files changed, 155 insertions(+), 2 deletions(-)
+ create mode 100644 git-log.txt
+ create mode 100644 index.js
+ create mode 100644 style.css
+PS C:\Users\Jewel\Desktop\html-css> git push -u origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.62 KiB | 552.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/JewelShahi/html-css.git
+   3760b3a..8dcdfcf  main -> main
+branch 'main' set up to track 'origin/main'.
