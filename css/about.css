@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+}
+
+/* About Section */
+.about-section {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+/* Unordered List */
+.hover-text {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 20px 0;
+}
+
+.hover-text li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.hover-text li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #ff6347;
+}
+
+/* Button */
+.button-hover {
+  display: inline-block;
+  background-color: #ff6347;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px;
+}
+
+.button-hover:hover {
+  background-color: #e55347;
+  transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1,
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .button-hover {
+    font-size: 16px;
+  }
+}
