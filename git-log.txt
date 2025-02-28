@@ -15,3 +15,15 @@ Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/JewelShahi/html-css.git
    3760b3a..8dcdfcf  main -> main
 branch 'main' set up to track 'origin/main'.
+
+PS C:\Users\Jewel\Desktop\html-css> git log
+commit 62534d16772492f58f0d6c10e7d058a62cb612e6 (HEAD -> main, origin/main)
+Author: JoeTheBest <jewelshahi10@gmail.com>
+Date:   Fri Feb 21 09:16:31 2025 +0200
+
+    new things added
+
+commit 8473ebb4ec77f81aaa59a47e125935aeddd732ff
+Author: JoeTheBest <jewelshahi10@gmail.com>
+Date:   Fri Feb 14 08:53:45 2025 +0200
+:
